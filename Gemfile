@@ -32,7 +32,7 @@ group :test do
   # Both guard-rspec and guard-cucumber are used by cucumber features
   gem "guard-cucumber", "~> 2.1", require: false
   gem "guard-rspec", require: false
-
+  gem "notiffany", ">= 0.0.6", require: false, github: "transformative-it/notiffany
   gem "aruba", "~> 0.14", require: false
   gem "codecov", require: false
   gem "rspec", ">= 3.0.0", require: false

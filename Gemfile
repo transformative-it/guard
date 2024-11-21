@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gemspec unless ENV["USE_INSTALLED_GUARD"] == "1"
 
 gem "rake"
+gem "notiffany", ">= 0.0.6", require: false, github: "transformative-it/notiffany"
 
 # The development group will not be
 # installed on Travis CI.
@@ -35,7 +36,6 @@ group :test do
 
   gem "aruba", "~> 0.14", require: false
   gem "codecov", require: false
-  gem "notiffany", ">= 0.0.6", require: false
   gem "rspec", ">= 3.0.0", require: false
 end
 
